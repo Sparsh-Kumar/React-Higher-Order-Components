@@ -39,8 +39,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Project Details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In this project we have created 2 separate components which are responsible for listing down users & tasks.
+Both the components can be seen on one page side by side. You can also perform searching of users / tasks in the input box provided.
+The whole agenda of this project is to take the common functionality of both the components and store them into a higher order component.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We will pass the `Users` component & `Tasks` component into `Higher order component` to return enhanced version of Users / Tasks component. So that the resultant components would have the functionality provided by `Higher Order component`
+
+
